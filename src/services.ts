@@ -51,7 +51,7 @@ export const SERVICES: Service[] = [
   { slug: 'energuate', name: 'Energuate', url: 'https://www.energuate.com', category: 'servicios' },
 
   // Universidades
-  { slug: 'usac', name: 'USAC', url: 'https://www.usac.edu.gt', category: 'educacion', full: 'Universidad de San Carlos' },
+  { slug: 'usac', name: 'USAC', url: 'https://portal.usac.edu.gt', category: 'educacion', full: 'Universidad de San Carlos' },
   { slug: 'umg', name: 'Universidad Mariano Gálvez', url: 'https://www.umg.edu.gt', category: 'educacion' },
   { slug: 'uvg', name: 'Universidad del Valle', url: 'https://www.uvg.edu.gt', category: 'educacion' },
 
