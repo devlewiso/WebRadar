@@ -23,7 +23,7 @@ export const SERVICES: Service[] = [
   { slug: 'banrural', name: 'Banrural', url: 'https://www.banrural.com.gt', category: 'bancos' },
   { slug: 'banco-industrial', name: 'Banco Industrial', url: 'https://www.corporacionbi.com', category: 'bancos' },
   { slug: 'bam', name: 'BAM', url: 'https://www.bam.com.gt', category: 'bancos', full: 'Banco Agromercantil' },
-  { slug: 'gyt-continental', name: 'G&T Continental', url: 'https://www.gyt.com.gt', category: 'bancos' },
+  { slug: 'gyt-continental', name: 'G&T Continental', url: 'https://www.gtc.com.gt', category: 'bancos' },
   { slug: 'cuscatlan', name: 'Banco Cuscatlán', url: 'https://www.bancocuscatlan.com.gt', category: 'bancos' },
   { slug: 'promerica', name: 'Banco Promerica', url: 'https://www.bancopromerica.com.gt', category: 'bancos' },
   { slug: 'banco-azteca', name: 'Banco Azteca', url: 'https://www.bancoazteca.com.gt', category: 'bancos' },
