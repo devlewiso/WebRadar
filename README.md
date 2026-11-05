@@ -39,7 +39,7 @@ npx wrangler secret put IP_SALT
 npm run deploy
 ```
 
-Para el dominio propio, descomentá `routes` en `wrangler.jsonc`.
+El dominio propio está en `routes` dentro de `wrangler.jsonc`.
 
 ## Agregar un servicio
 

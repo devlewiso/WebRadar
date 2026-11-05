@@ -10,8 +10,7 @@
     {
       "binding": "DB",
       "database_name": "webradar",
-      // Se llena al crear la base: npx wrangler d1 create webradar
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "b1420d14-5778-4c7f-83f2-a14bd541a41d",
       "migrations_dir": "migrations"
     }
   ],
@@ -19,7 +18,7 @@
     "SITE_URL": "https://radar.neuralcodelab.com",
     "ADSENSE_CLIENT": "ca-pub-2802646505145866"
   },
-  // Dominio propio (se activa al desplegar):
-  // "routes": [{ "pattern": "radar.neuralcodelab.com", "custom_domain": true }],
+  // Dominio propio
+  "routes": [{ "pattern": "radar.neuralcodelab.com", "custom_domain": true }],
   "observability": { "enabled": true }
 }
