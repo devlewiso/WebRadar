@@ -36,7 +36,7 @@ export const SERVICES: Service[] = [
   { slug: 'renap', name: 'RENAP', url: 'https://www.renap.gob.gt', category: 'gobierno', full: 'Registro Nacional de las Personas' },
   { slug: 'tse', name: 'TSE', url: 'https://www.tse.org.gt', category: 'gobierno', full: 'Tribunal Supremo Electoral' },
   { slug: 'ministerio-publico', name: 'Ministerio Público', url: 'https://www.mp.gob.gt', category: 'gobierno' },
-  { slug: 'organismo-judicial', name: 'Organismo Judicial', url: 'https://www.oj.gob.gt', category: 'gobierno' },
+  { slug: 'organismo-judicial', name: 'Organismo Judicial', url: 'https://portal.oj.gob.gt', category: 'gobierno' },
   { slug: 'mineduc', name: 'MINEDUC', url: 'https://www.mineduc.gob.gt', category: 'gobierno', full: 'Ministerio de Educación' },
   { slug: 'mspas', name: 'MSPAS', url: 'https://www.mspas.gob.gt', category: 'gobierno', full: 'Ministerio de Salud Pública' },
   { slug: 'mintrab', name: 'Ministerio de Trabajo', url: 'https://www.mintrabajo.gob.gt', category: 'gobierno' },
