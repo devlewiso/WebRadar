@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "webradar",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-09-01",
+  // Cada minuto revisa una quinta parte de los servicios: cada sitio se revisa cada 5 minutos
+  // y ninguna corrida pasa del límite de 50 subrequests del plan gratis.
+  "triggers": { "crons": ["* * * * *"] },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "webradar",
+      // Se llena al crear la base: npx wrangler d1 create webradar
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "vars": {
+    "SITE_URL": "https://radar.neuralcodelab.com",
+    "ADSENSE_CLIENT": "ca-pub-2802646505145866"
+  },
+  // Dominio propio (se activa al desplegar):
+  // "routes": [{ "pattern": "radar.neuralcodelab.com", "custom_domain": true }],
+  "observability": { "enabled": true }
+}
